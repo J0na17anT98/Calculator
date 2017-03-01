@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3759E151E6776480065C8F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E141E6776480065C8F1 /* AppDelegate.swift */; };
+		A3759E171E6776480065C8F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E161E6776480065C8F1 /* ViewController.swift */; };
+		A3759E1A1E6776480065C8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3759E181E6776480065C8F1 /* Main.storyboard */; };
+		A3759E1C1E6776480065C8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3759E1B1E6776480065C8F1 /* Assets.xcassets */; };
+		A3759E1F1E6776480065C8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3759E1D1E6776480065C8F1 /* LaunchScreen.storyboard */; };
+		A3759E241E6776480065C8F1 /* Calculator WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A3759E231E6776480065C8F1 /* Calculator WatchKit App.app */; };
+		A3759E2A1E6776480065C8F1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3759E281E6776480065C8F1 /* Interface.storyboard */; };
+		A3759E2C1E6776480065C8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3759E2B1E6776480065C8F1 /* Assets.xcassets */; };
+		A3759E331E6776480065C8F1 /* Calculator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A3759E321E6776480065C8F1 /* Calculator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A3759E3A1E6776480065C8F1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E391E6776480065C8F1 /* InterfaceController.swift */; };
+		A3759E3C1E6776480065C8F1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E3B1E6776480065C8F1 /* ExtensionDelegate.swift */; };
+		A3759E3E1E6776480065C8F1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E3D1E6776480065C8F1 /* NotificationController.swift */; };
+		A3759E401E6776480065C8F1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E3F1E6776480065C8F1 /* ComplicationController.swift */; };
+		A3759E421E6776480065C8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3759E411E6776480065C8F1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3759E251E6776480065C8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3759E091E6776480065C8F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3759E221E6776480065C8F1;
+			remoteInfo = "Calculator WatchKit App";
+		};
+		A3759E341E6776480065C8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3759E091E6776480065C8F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3759E311E6776480065C8F1;
+			remoteInfo = "Calculator WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3759E491E6776480065C8F1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A3759E331E6776480065C8F1 /* Calculator WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3759E4D1E6776480065C8F1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A3759E241E6776480065C8F1 /* Calculator WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3759E111E6776480065C8F1 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3759E141E6776480065C8F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3759E161E6776480065C8F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3759E191E6776480065C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3759E1B1E6776480065C8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3759E1E1E6776480065C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3759E201E6776480065C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3759E231E6776480065C8F1 /* Calculator WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3759E291E6776480065C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A3759E2B1E6776480065C8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3759E2D1E6776480065C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3759E321E6776480065C8F1 /* Calculator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Calculator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3759E381E6776480065C8F1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A3759E391E6776480065C8F1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A3759E3B1E6776480065C8F1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A3759E3D1E6776480065C8F1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A3759E3F1E6776480065C8F1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A3759E411E6776480065C8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3759E431E6776480065C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3759E0E1E6776480065C8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3759E2F1E6776480065C8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3759E081E6776480065C8F1 = {
+			isa = PBXGroup;
+			children = (
+				A3759E131E6776480065C8F1 /* Calculator */,
+				A3759E271E6776480065C8F1 /* Calculator WatchKit App */,
+				A3759E361E6776480065C8F1 /* Calculator WatchKit Extension */,
+				A3759E121E6776480065C8F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3759E121E6776480065C8F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3759E111E6776480065C8F1 /* Calculator.app */,
+				A3759E231E6776480065C8F1 /* Calculator WatchKit App.app */,
+				A3759E321E6776480065C8F1 /* Calculator WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3759E131E6776480065C8F1 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				A3759E141E6776480065C8F1 /* AppDelegate.swift */,
+				A3759E161E6776480065C8F1 /* ViewController.swift */,
+				A3759E181E6776480065C8F1 /* Main.storyboard */,
+				A3759E1B1E6776480065C8F1 /* Assets.xcassets */,
+				A3759E1D1E6776480065C8F1 /* LaunchScreen.storyboard */,
+				A3759E201E6776480065C8F1 /* Info.plist */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		A3759E271E6776480065C8F1 /* Calculator WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A3759E281E6776480065C8F1 /* Interface.storyboard */,
+				A3759E2B1E6776480065C8F1 /* Assets.xcassets */,
+				A3759E2D1E6776480065C8F1 /* Info.plist */,
+			);
+			path = "Calculator WatchKit App";
+			sourceTree = "<group>";
+		};
+		A3759E361E6776480065C8F1 /* Calculator WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A3759E391E6776480065C8F1 /* InterfaceController.swift */,
+				A3759E3B1E6776480065C8F1 /* ExtensionDelegate.swift */,
+				A3759E3D1E6776480065C8F1 /* NotificationController.swift */,
+				A3759E3F1E6776480065C8F1 /* ComplicationController.swift */,
+				A3759E411E6776480065C8F1 /* Assets.xcassets */,
+				A3759E431E6776480065C8F1 /* Info.plist */,
+				A3759E371E6776480065C8F1 /* Supporting Files */,
+			);
+			path = "Calculator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A3759E371E6776480065C8F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3759E381E6776480065C8F1 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3759E101E6776480065C8F1 /* Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3759E4E1E6776480065C8F1 /* Build configuration list for PBXNativeTarget "Calculator" */;
+			buildPhases = (
+				A3759E0D1E6776480065C8F1 /* Sources */,
+				A3759E0E1E6776480065C8F1 /* Frameworks */,
+				A3759E0F1E6776480065C8F1 /* Resources */,
+				A3759E4D1E6776480065C8F1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3759E261E6776480065C8F1 /* PBXTargetDependency */,
+			);
+			name = Calculator;
+			productName = Calculator;
+			productReference = A3759E111E6776480065C8F1 /* Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3759E221E6776480065C8F1 /* Calculator WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3759E4A1E6776480065C8F1 /* Build configuration list for PBXNativeTarget "Calculator WatchKit App" */;
+			buildPhases = (
+				A3759E211E6776480065C8F1 /* Resources */,
+				A3759E491E6776480065C8F1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3759E351E6776480065C8F1 /* PBXTargetDependency */,
+			);
+			name = "Calculator WatchKit App";
+			productName = "Calculator WatchKit App";
+			productReference = A3759E231E6776480065C8F1 /* Calculator WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A3759E311E6776480065C8F1 /* Calculator WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3759E461E6776480065C8F1 /* Build configuration list for PBXNativeTarget "Calculator WatchKit Extension" */;
+			buildPhases = (
+				A3759E2E1E6776480065C8F1 /* Sources */,
+				A3759E2F1E6776480065C8F1 /* Frameworks */,
+				A3759E301E6776480065C8F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculator WatchKit Extension";
+			productName = "Calculator WatchKit Extension";
+			productReference = A3759E321E6776480065C8F1 /* Calculator WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3759E091E6776480065C8F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jonathan Tsistinas";
+				TargetAttributes = {
+					A3759E101E6776480065C8F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A3759E221E6776480065C8F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A3759E311E6776480065C8F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A3759E0C1E6776480065C8F1 /* Build configuration list for PBXProject "Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3759E081E6776480065C8F1;
+			productRefGroup = A3759E121E6776480065C8F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3759E101E6776480065C8F1 /* Calculator */,
+				A3759E221E6776480065C8F1 /* Calculator WatchKit App */,
+				A3759E311E6776480065C8F1 /* Calculator WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3759E0F1E6776480065C8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3759E1F1E6776480065C8F1 /* LaunchScreen.storyboard in Resources */,
+				A3759E1C1E6776480065C8F1 /* Assets.xcassets in Resources */,
+				A3759E1A1E6776480065C8F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3759E211E6776480065C8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3759E2C1E6776480065C8F1 /* Assets.xcassets in Resources */,
+				A3759E2A1E6776480065C8F1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3759E301E6776480065C8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3759E421E6776480065C8F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3759E0D1E6776480065C8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3759E171E6776480065C8F1 /* ViewController.swift in Sources */,
+				A3759E151E6776480065C8F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3759E2E1E6776480065C8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3759E3E1E6776480065C8F1 /* NotificationController.swift in Sources */,
+				A3759E401E6776480065C8F1 /* ComplicationController.swift in Sources */,
+				A3759E3C1E6776480065C8F1 /* ExtensionDelegate.swift in Sources */,
+				A3759E3A1E6776480065C8F1 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3759E261E6776480065C8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3759E221E6776480065C8F1 /* Calculator WatchKit App */;
+			targetProxy = A3759E251E6776480065C8F1 /* PBXContainerItemProxy */;
+		};
+		A3759E351E6776480065C8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3759E311E6776480065C8F1 /* Calculator WatchKit Extension */;
+			targetProxy = A3759E341E6776480065C8F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3759E181E6776480065C8F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3759E191E6776480065C8F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3759E1D1E6776480065C8F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3759E1E1E6776480065C8F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A3759E281E6776480065C8F1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3759E291E6776480065C8F1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3759E441E6776480065C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3759E451E6776480065C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3759E471E6776480065C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Calculator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.Calculator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		A3759E481E6776480065C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Calculator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.Calculator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		A3759E4B1E6776480065C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Calculator_WatchKit_Extension;
+				INFOPLIST_FILE = "Calculator WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.Calculator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		A3759E4C1E6776480065C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Calculator_WatchKit_Extension;
+				INFOPLIST_FILE = "Calculator WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.Calculator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		A3759E4F1E6776480065C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Calculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.Calculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3759E501E6776480065C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Calculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.Calculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3759E0C1E6776480065C8F1 /* Build configuration list for PBXProject "Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3759E441E6776480065C8F1 /* Debug */,
+				A3759E451E6776480065C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3759E461E6776480065C8F1 /* Build configuration list for PBXNativeTarget "Calculator WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3759E471E6776480065C8F1 /* Debug */,
+				A3759E481E6776480065C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3759E4A1E6776480065C8F1 /* Build configuration list for PBXNativeTarget "Calculator WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3759E4B1E6776480065C8F1 /* Debug */,
+				A3759E4C1E6776480065C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3759E4E1E6776480065C8F1 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3759E4F1E6776480065C8F1 /* Debug */,
+				A3759E501E6776480065C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3759E091E6776480065C8F1 /* Project object */;
+}
