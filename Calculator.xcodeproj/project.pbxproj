@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3406A8F1E6B1FC90038F296 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406A8E1E6B1FC90038F296 /* Command.swift */; };
+		A3406A911E6B2CE70038F296 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3406A901E6B2CE70038F296 /* Command.swift */; };
 		A3759E151E6776480065C8F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E141E6776480065C8F1 /* AppDelegate.swift */; };
-		A3759E171E6776480065C8F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E161E6776480065C8F1 /* ViewController.swift */; };
+		A3759E171E6776480065C8F1 /* CalcVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E161E6776480065C8F1 /* CalcVC.swift */; };
 		A3759E1A1E6776480065C8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3759E181E6776480065C8F1 /* Main.storyboard */; };
 		A3759E1C1E6776480065C8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3759E1B1E6776480065C8F1 /* Assets.xcassets */; };
 		A3759E1F1E6776480065C8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3759E1D1E6776480065C8F1 /* LaunchScreen.storyboard */; };
@@ -21,6 +23,12 @@
 		A3759E3E1E6776480065C8F1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E3D1E6776480065C8F1 /* NotificationController.swift */; };
 		A3759E401E6776480065C8F1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3759E3F1E6776480065C8F1 /* ComplicationController.swift */; };
 		A3759E421E6776480065C8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3759E411E6776480065C8F1 /* Assets.xcassets */; };
+		A3759E521E677C310065C8F1 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3759E511E677C310065C8F1 /* btn.wav */; };
+		A3759E531E677C310065C8F1 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3759E511E677C310065C8F1 /* btn.wav */; };
+		A3759E541E677C310065C8F1 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3759E511E677C310065C8F1 /* btn.wav */; };
+		A3759E561E677CA20065C8F1 /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3759E551E677CA20065C8F1 /* Minecrafter.Alt.ttf */; };
+		A3759E571E677CA20065C8F1 /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3759E551E677CA20065C8F1 /* Minecrafter.Alt.ttf */; };
+		A3759E581E677CA20065C8F1 /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3759E551E677CA20065C8F1 /* Minecrafter.Alt.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +74,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A3406A8E1E6B1FC90038F296 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		A3406A901E6B2CE70038F296 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		A36306151E68918F001B8709 /* Calculator WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
 		A3759E111E6776480065C8F1 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3759E141E6776480065C8F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3759E161E6776480065C8F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3759E161E6776480065C8F1 /* CalcVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcVC.swift; sourceTree = "<group>"; };
 		A3759E191E6776480065C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3759E1B1E6776480065C8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3759E1E1E6776480065C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,6 +96,8 @@
 		A3759E3F1E6776480065C8F1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		A3759E411E6776480065C8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3759E431E6776480065C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3759E511E677C310065C8F1 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		A3759E551E677CA20065C8F1 /* Minecrafter.Alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Alt.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,9 +141,12 @@
 		A3759E131E6776480065C8F1 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				A3406A901E6B2CE70038F296 /* Command.swift */,
 				A3759E141E6776480065C8F1 /* AppDelegate.swift */,
-				A3759E161E6776480065C8F1 /* ViewController.swift */,
+				A3759E161E6776480065C8F1 /* CalcVC.swift */,
 				A3759E181E6776480065C8F1 /* Main.storyboard */,
+				A3759E511E677C310065C8F1 /* btn.wav */,
+				A3759E551E677CA20065C8F1 /* Minecrafter.Alt.ttf */,
 				A3759E1B1E6776480065C8F1 /* Assets.xcassets */,
 				A3759E1D1E6776480065C8F1 /* LaunchScreen.storyboard */,
 				A3759E201E6776480065C8F1 /* Info.plist */,
@@ -152,12 +168,14 @@
 			isa = PBXGroup;
 			children = (
 				A3759E391E6776480065C8F1 /* InterfaceController.swift */,
+				A3406A8E1E6B1FC90038F296 /* Command.swift */,
 				A3759E3B1E6776480065C8F1 /* ExtensionDelegate.swift */,
 				A3759E3D1E6776480065C8F1 /* NotificationController.swift */,
 				A3759E3F1E6776480065C8F1 /* ComplicationController.swift */,
 				A3759E411E6776480065C8F1 /* Assets.xcassets */,
 				A3759E431E6776480065C8F1 /* Info.plist */,
 				A3759E371E6776480065C8F1 /* Supporting Files */,
+				A36306151E68918F001B8709 /* Calculator WatchKit Extension-Bridging-Header.h */,
 			);
 			path = "Calculator WatchKit Extension";
 			sourceTree = "<group>";
@@ -246,6 +264,7 @@
 					};
 					A3759E311E6776480065C8F1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -278,6 +297,8 @@
 				A3759E1F1E6776480065C8F1 /* LaunchScreen.storyboard in Resources */,
 				A3759E1C1E6776480065C8F1 /* Assets.xcassets in Resources */,
 				A3759E1A1E6776480065C8F1 /* Main.storyboard in Resources */,
+				A3759E521E677C310065C8F1 /* btn.wav in Resources */,
+				A3759E561E677CA20065C8F1 /* Minecrafter.Alt.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +306,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3759E531E677C310065C8F1 /* btn.wav in Resources */,
 				A3759E2C1E6776480065C8F1 /* Assets.xcassets in Resources */,
+				A3759E571E677CA20065C8F1 /* Minecrafter.Alt.ttf in Resources */,
 				A3759E2A1E6776480065C8F1 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +317,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3759E581E677CA20065C8F1 /* Minecrafter.Alt.ttf in Resources */,
 				A3759E421E6776480065C8F1 /* Assets.xcassets in Resources */,
+				A3759E541E677C310065C8F1 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,8 +330,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3759E171E6776480065C8F1 /* ViewController.swift in Sources */,
+				A3759E171E6776480065C8F1 /* CalcVC.swift in Sources */,
 				A3759E151E6776480065C8F1 /* AppDelegate.swift in Sources */,
+				A3406A911E6B2CE70038F296 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +343,7 @@
 				A3759E3E1E6776480065C8F1 /* NotificationController.swift in Sources */,
 				A3759E401E6776480065C8F1 /* ComplicationController.swift in Sources */,
 				A3759E3C1E6776480065C8F1 /* ExtensionDelegate.swift in Sources */,
+				A3406A8F1E6B1FC90038F296 /* Command.swift in Sources */,
 				A3759E3A1E6776480065C8F1 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,12 +488,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Calculator WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.Calculator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Calculator WatchKit Extension/Calculator WatchKit Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.1;
@@ -477,12 +507,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Calculator WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Techinator.Calculator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Calculator WatchKit Extension/Calculator WatchKit Extension-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.1;
@@ -566,6 +598,7 @@
 				A3759E481E6776480065C8F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3759E4A1E6776480065C8F1 /* Build configuration list for PBXNativeTarget "Calculator WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +607,7 @@
 				A3759E4C1E6776480065C8F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3759E4E1E6776480065C8F1 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +616,7 @@
 				A3759E501E6776480065C8F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

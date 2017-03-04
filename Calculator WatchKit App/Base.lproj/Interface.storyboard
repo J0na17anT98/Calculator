@@ -1,16 +1,341 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Calculator_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="156" height="24" alignment="left" text="Sum" textAlignment="right" minimumScaleFactor="0.20000000000000001" id="Z0O-zE-ait">
+                            <fontDescription key="font" type="system" pointSize="15"/>
+                        </label>
+                        <group width="156" alignment="left" id="p5n-YI-VQS">
+                            <items>
+                                <separator alignment="left" id="vEW-PE-pAC">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="GUr-n5-2G0">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="czs-i6-Nel">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="86" height="24" alignment="left" title="CLEAR" backgroundImage="clear" id="GGY-j4-Az2">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="onClearPressed:" destination="AgC-eL-Hgc" id="a7U-fZ-67m"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="vk5-QQ-q4M">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="ydG-Yf-XL9">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="GeT-Tb-6fn">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="isf-vr-dpP">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="YJ9-NG-WZd">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="BMa-3A-63C">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="4nw-lt-c2d">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="kHB-73-yCn">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" backgroundImage="divide" id="I9P-wS-iZy">
+                                    <connections>
+                                        <action selector="onDividePressed:" destination="AgC-eL-Hgc" id="JYb-GW-P9f"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="SdZ-Ut-1Rn">
+                            <items>
+                                <button width="25" height="24" alignment="left" title="7" backgroundImage="7" id="sCq-4m-SI2">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="seven" destination="AgC-eL-Hgc" id="TYU-0C-MGf"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="zK2-mz-cK8">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="sNp-bv-GWZ">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="T99-9s-7Ee">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="hml-Q4-0iD">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" title="8" backgroundImage="8" id="Ix3-zo-skh">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="eight" destination="AgC-eL-Hgc" id="oKj-P4-1fi"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="qrX-k1-zXG">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="xaI-Gh-Kqb">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="znU-8P-xq7">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="VxF-BT-nYx">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" title="9" backgroundImage="9" id="6fh-dz-4Ad">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="nine" destination="AgC-eL-Hgc" id="3MS-5s-Xx5"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="iF8-bC-IbA">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="2CB-Xn-8FK">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="5yI-Wh-yIo">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="ESs-rS-cSR">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="TIw-1N-69L">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" backgroundImage="multiply" id="efy-eG-8FX">
+                                    <connections>
+                                        <action selector="onMultiplyPressed:" destination="AgC-eL-Hgc" id="VvH-Vm-cXZ"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="xbK-6c-2ef">
+                            <items>
+                                <button width="25" height="24" alignment="left" title="4" backgroundImage="4" id="XWS-qi-Jzm">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="four" destination="AgC-eL-Hgc" id="wFk-vm-r41"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="Lpu-fV-ybp">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="wez-aQ-yqV">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="83z-Av-3T0">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="pAY-HZ-lVN">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" title="5" backgroundImage="5" id="Dgc-qi-6rj">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="five" destination="AgC-eL-Hgc" id="Y5z-Xn-d6z"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="PGF-zi-fQM">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="nDK-J5-rxZ">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="gsS-9t-Dau">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="mOG-IW-w8N">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" title="6" backgroundImage="6" id="tB6-bq-2yX">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="six" destination="AgC-eL-Hgc" id="bvC-Av-YIr"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="60h-4H-ilK">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="9yk-WL-nL6">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="Zeu-5c-6gk">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="10r-GT-cZm">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="e5Z-T4-Oon">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" backgroundImage="subtract" id="hj3-6h-s3z">
+                                    <connections>
+                                        <action selector="onSubtractPressed:" destination="AgC-eL-Hgc" id="K77-5N-p3Q"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="pYu-xJ-j6k">
+                            <items>
+                                <button width="25" height="24" alignment="left" title="1" backgroundImage="1" id="0te-Lg-09F">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="one" destination="AgC-eL-Hgc" id="IVQ-xN-Knm"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="llG-OP-c4u">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="UeG-Ls-gz1">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="tNq-fV-BU7">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="JRo-Wa-yUh">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" title="2" backgroundImage="2" id="COz-1M-Pgr">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="two" destination="AgC-eL-Hgc" id="83a-Lf-9l7"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="HR7-bJ-zHF">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="HBu-Ml-rbY">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="byY-wK-wz0">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="f7J-fo-6NO">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" title="3" backgroundImage="3" id="OSL-Ud-sye">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="three" destination="AgC-eL-Hgc" id="Dzv-m6-JL0"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="hVn-xb-QNZ">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="Cl1-bd-kE7">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="heT-yv-J29">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="kW4-St-1df">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="NLO-3R-RZV">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" backgroundImage="add" id="cFE-fj-bgf">
+                                    <connections>
+                                        <action selector="onAddPressed:" destination="AgC-eL-Hgc" id="r1z-kL-SOE"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="Spg-Xd-LO1">
+                            <items>
+                                <button width="25" height="24" alignment="left" title="0" backgroundImage="0" id="Gu0-hq-RUV">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="Zero" destination="AgC-eL-Hgc" id="Keu-U7-Fbd"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="w0Z-Hz-9Yf">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="6eD-vz-LGt">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="zGu-Xk-ZTN">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="vd8-M1-tKD">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" title="." backgroundImage="decimal" id="WkQ-bg-P7P">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="onDecimalPressedWith_seder:" destination="AgC-eL-Hgc" id="Tm3-pW-Ou2"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="c3r-kT-cp9">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="dxP-Oi-d6y">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="SjU-Tu-B6r">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="Ls3-7X-UYQ">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" title="%" backgroundImage="%" id="Ye6-Mt-uDc">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="onPercentTappedWith_sender:" destination="AgC-eL-Hgc" id="9zo-Fc-dgB"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="qm7-On-KHK">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="IEF-q2-ESH">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="V6S-ff-I9i">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="dhO-dV-WNz">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <separator alignment="left" id="nb9-bM-kpz">
+                                    <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </separator>
+                                <button width="25" height="24" alignment="left" backgroundImage="equal" id="9Up-so-PPn">
+                                    <connections>
+                                        <action selector="onEqualPressed:" destination="AgC-eL-Hgc" id="HzN-v7-OIS"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="outputLbl" destination="Z0O-zE-ait" id="B20-zb-6Xz"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="219.69230769230771" y="344.79487179487182"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -31,7 +356,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Calculator_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
